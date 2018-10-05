@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ui script="menu_main.lua">
+	<background image="mm_bg.png" />
+	<group x="0" y="0" w="0" h="0">
+		<button action="button_hunt()" name="st_hunt"/>
+		<button action="button_trophy()" name="st_trophyroom"/>
+		<button action="button_settings()" name="st_settings"/>
+		<button action="button_quit()" name="st_quit"/>
+	</group>
+</ui>

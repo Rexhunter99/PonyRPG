@@ -1,0 +1,28 @@
+[mouse]
+mouse0 = "Left Mouse" ;"LMB"
+mouse1 = "Right Mouse" ;"RMB"
+mouse2 = "Middle Mouse" ;"MMB"
+mouse3 = "Mouse Button #4"
+mouse4 = "Mouse Button #5"
+
+[keyboard]
+k_0 = "0"
+k_1 = "1"
+
+[xinput_pad]
+xgp_dpad_up	= "D-Pad Up"
+xgp_dpad_down	= "D-Pad Down"
+xgp_dpad_left	= "D-Pad Left"
+xgp_dpad_right	= "D-Pad Right"
+xgp_start	= "Start/Menu"
+xgp_select	= "Select/Back"
+xgp_a		= "A Button"
+xgp_x		= "X Button"
+xgp_b		= "B Button"
+xgp_y		= "Y Button"
+xgp_rb		= "Right Bumper"
+xgp_lb		= "Left Bumper"
+xgp_rt		= "Right Trigger"
+xgp_lt		= "Left Trigger"
+xgp_las		= "Left Analogue Stick"
+xgp_ras		= "Right Analogue Stick"

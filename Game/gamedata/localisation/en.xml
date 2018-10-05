@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<stringtable>
+	<string name="st_dummy">Dummy</string>
+	<string name="st_menu_hunt">Hunt</string>
+	
+	<string name="st_pistol">Pistol</string>
+	<string name="st_pistol_desc">10mm Auto Semi-automatic sidearm generally used for self defence and target practice.</string>
+	<string name="st_shotgun">Shotgun</string>
+	<string name="st_shotgun_desc">12 Gauge Pump-Action Shotgun, loaded with buckshot, traditionally used in hunting.</string>
+	
+	<string name="st_parasaur">Parasaurolophus</string>
+	<string name="st_parasaur_short">Parasaur</string>
+	<string name="st_parasaur_desc">Parasaurolophus, belonging to the family 'hadrosaur' is a docile herbivore</string>
+	
+	<string name="st_difficulty1">Novice</string>
+	<string name="st_difficulty2">Rookie</string>
+	<string name="st_difficulty3">Amateur</string>
+	<string name="st_difficulty4">Experienced</string>
+	<string name="st_difficulty5">Master</string>
+	
+	<string name="st_c2a1">Delpheaus Hills</string>
+	<string name="st_c2a1_desc">A temperate climate has treated this island well,
+	rolling hills and plains of lush flora and light forests of ancient pines make up the majority of this particular area.</string>
+</stringtable>

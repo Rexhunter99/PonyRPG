@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<stringtable>
+	<string>
+		<name>st_</name>
+		<content></content>
+	</string>
+	<string>
+		<name>st_menu_hunt</name>
+		<content>Hunt</content>
+	</string>
+	<string>
+		<name>st_shotgun</name>
+		<content>Shotgun</content>
+	</string>
+	<string>
+		<name>st_shotgun_desc</name>
+		<content>Shotgun</content>
+	</string>
+</stringtable>

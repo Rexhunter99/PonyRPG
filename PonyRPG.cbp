@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PonyRPG" />
+		<Option platforms="Windows;Unix;" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Display\;Display\Resources\;Menu\;Entities\;" />
+		<Option show_notes="1">
+			<notes>
+				<![CDATA[This project relies on GLFW 3, GLEW, OpenAL, OpenGL 3, OpenGL 4, libxml, libpng, zlib third party libraries, ensure you download the appropriate headers, libraries and binaries for this project before compiling it.]]>
+			</notes>
+		</Option>
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Windows;" />
+				<Option output="Binary/PonyRPG_Debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Game/" />
+				<Option object_output="Build/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DTHROW_EXCEPTIONS" />
+					<Add option="-D_DEBUG" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option platforms="Windows;" />
+				<Option output="Binary/PonyRPG_Release" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Game/" />
+				<Option object_output="Build/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DNDEBUG" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-D_WIN32" />
+			<Add option="-DGLEW_STATIC" />
+			<Add directory="./Depends/include" />
+		</Compiler>
+		<Linker>
+			<Add library="glfw3" />
+			<Add library="glew32s" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="gdi32" />
+			<Add library="lua53" />
+			<Add library="png" />
+			<Add library="zlib" />
+			<Add library="M:/SDK/libxml2/lib/libxml2.lib" />
+			<Add library="iconv" />
+			<Add directory="./Depends/lib" />
+			<Add directory="./Depends/lib-mingw" />
+		</Linker>
+		<Unit filename="Area.cpp" />
+		<Unit filename="Area.h" />
+		<Unit filename="Camera.h" />
+		<Unit filename="ClassMap.cpp" />
+		<Unit filename="ClassMap.h" />
+		<Unit filename="CollisionModel.h" />
+		<Unit filename="Display.cpp">
+			<Option virtualFolder="Display/" />
+		</Unit>
+		<Unit filename="Display.h">
+			<Option virtualFolder="Display/" />
+		</Unit>
+		<Unit filename="Entity.cpp">
+			<Option virtualFolder="Entities/" />
+		</Unit>
+		<Unit filename="Entity.h">
+			<Option virtualFolder="Entities/" />
+		</Unit>
+		<Unit filename="EntityCamera.h">
+			<Option virtualFolder="Entities/" />
+		</Unit>
+		<Unit filename="EntityPlayer.h">
+			<Option virtualFolder="Entities/" />
+		</Unit>
+		<Unit filename="Exceptions.h" />
+		<Unit filename="Input.cpp" />
+		<Unit filename="Input.h" />
+		<Unit filename="Model.cpp">
+			<Option virtualFolder="Display/Resources/" />
+		</Unit>
+		<Unit filename="Model.h">
+			<Option virtualFolder="Display/Resources/" />
+		</Unit>
+		<Unit filename="ScriptEngine.cpp" />
+		<Unit filename="ScriptEngine.h" />
+		<Unit filename="Shader.cpp">
+			<Option virtualFolder="Display/Resources/" />
+		</Unit>
+		<Unit filename="Shader.h">
+			<Option virtualFolder="Display/Resources/" />
+		</Unit>
+		<Unit filename="StringTable.cpp" />
+		<Unit filename="StringTable.h" />
+		<Unit filename="Texture.cpp">
+			<Option virtualFolder="Display/Resources/" />
+		</Unit>
+		<Unit filename="Texture.h">
+			<Option virtualFolder="Display/Resources/" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

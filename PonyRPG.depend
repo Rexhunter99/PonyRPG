@@ -1,0 +1,2207 @@
+# depslib dependency file v1.0
+1481330758 source:c:\users\rexhu\onedrive\programming\crawlengine\animation.cpp
+	"Animation.h"
+	<cmath>
+
+1481319853 c:\users\rexhu\onedrive\programming\crawlengine\animation.h
+	<string>
+	<vector>
+	"Model.h"
+
+1481330743 c:\users\rexhu\onedrive\programming\crawlengine\model.h
+	<cstdint>
+	<array>
+	<vector>
+
+1481333021 source:c:\users\rexhu\onedrive\programming\crawlengine\main.cpp
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<iostream>
+
+1481317238 c:\program files (x86)\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1481330884 c:\program files (x86)\glm\include\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1481330886 c:\program files (x86)\glm\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1481330884 c:\program files (x86)\glm\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1481330891 c:\program files (x86)\glm\include\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1481330886 c:\program files (x86)\glm\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\precision.hpp
+	"setup.hpp"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1481330884 c:\program files (x86)\glm\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1481330886 c:\program files (x86)\glm\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1481330886 c:\program files (x86)\glm\include\glm\detail\_swizzle.hpp
+
+1481330886 c:\program files (x86)\glm\include\glm\detail\_swizzle_func.hpp
+
+1481330886 c:\program files (x86)\glm\include\glm\detail\type_vec2.inl
+
+1481330884 c:\program files (x86)\glm\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1481330886 c:\program files (x86)\glm\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1481330886 c:\program files (x86)\glm\include\glm\detail\type_vec3.inl
+
+1481330884 c:\program files (x86)\glm\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1481330886 c:\program files (x86)\glm\include\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1481330886 c:\program files (x86)\glm\include\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1481330886 c:\program files (x86)\glm\include\glm\detail\type_vec4_simd.inl
+
+1481330884 c:\program files (x86)\glm\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1481330884 c:\program files (x86)\glm\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1481330884 c:\program files (x86)\glm\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_mat2x3.inl
+
+1481330884 c:\program files (x86)\glm\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_mat2x4.inl
+
+1481330884 c:\program files (x86)\glm\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_mat3x2.inl
+
+1481330884 c:\program files (x86)\glm\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1481330884 c:\program files (x86)\glm\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_mat3x4.inl
+
+1481330884 c:\program files (x86)\glm\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_mat4x2.inl
+
+1481330884 c:\program files (x86)\glm\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1481330886 c:\program files (x86)\glm\include\glm\detail\type_mat4x3.inl
+
+1481330884 c:\program files (x86)\glm\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1481330886 c:\program files (x86)\glm\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1481330886 c:\program files (x86)\glm\include\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1481330886 c:\program files (x86)\glm\include\glm\detail\type_mat4x4_simd.inl
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1481330884 c:\program files (x86)\glm\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1481330884 c:\program files (x86)\glm\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1481330884 c:\program files (x86)\glm\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1481330884 c:\program files (x86)\glm\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1481330886 c:\program files (x86)\glm\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1481330886 c:\program files (x86)\glm\include\glm\detail\type_vec1.inl
+
+1481330884 c:\program files (x86)\glm\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\func_vector_relational_simd.inl
+
+1481330886 c:\program files (x86)\glm\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1481330884 c:\program files (x86)\glm\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1481330891 c:\program files (x86)\glm\include\glm\simd\exponential.h
+	"platform.h"
+
+1481330884 c:\program files (x86)\glm\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1481330884 c:\program files (x86)\glm\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1481330884 c:\program files (x86)\glm\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1481330891 c:\program files (x86)\glm\include\glm\simd\common.h
+	"platform.h"
+
+1481330884 c:\program files (x86)\glm\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1481330891 c:\program files (x86)\glm\include\glm\simd\geometric.h
+	"common.h"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1481330891 c:\program files (x86)\glm\include\glm\simd\matrix.h
+	"geometric.h"
+
+1481330884 c:\program files (x86)\glm\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\func_trigonometric_simd.inl
+
+1481330884 c:\program files (x86)\glm\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1481330884 c:\program files (x86)\glm\include\glm\common.hpp
+	"detail/func_common.hpp"
+
+1481330884 c:\program files (x86)\glm\include\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\type_half.inl
+
+1481330885 c:\program files (x86)\glm\include\glm\detail\func_packing_simd.inl
+
+1481330884 c:\program files (x86)\glm\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1481330884 c:\program files (x86)\glm\include\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1481330884 c:\program files (x86)\glm\include\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1481330884 c:\program files (x86)\glm\include\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1481330884 c:\program files (x86)\glm\include\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1481330884 c:\program files (x86)\glm\include\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1481330891 c:\program files (x86)\glm\include\glm\simd\integer.h
+
+1481330887 c:\program files (x86)\glm\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1481330886 c:\program files (x86)\glm\include\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1481330886 c:\program files (x86)\glm\include\glm\gtc\constants.inl
+	<limits>
+
+1481330887 c:\program files (x86)\glm\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1481330887 c:\program files (x86)\glm\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1481330887 c:\program files (x86)\glm\include\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1481330887 c:\program files (x86)\glm\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1481330887 c:\program files (x86)\glm\include\glm\gtc\quaternion_simd.inl
+
+1481330887 c:\program files (x86)\glm\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1481330758 source:c:\users\owner\onedrive\programming\crawlengine\animation.cpp
+	"Animation.h"
+	<cmath>
+
+1481319853 c:\users\owner\onedrive\programming\crawlengine\animation.h
+	<string>
+	<vector>
+	"Model.h"
+
+1481460016 c:\users\owner\onedrive\programming\crawlengine\model.h
+	"CollisionModel.h"
+	<cstdint>
+	<array>
+	<vector>
+
+1481971780 c:\users\owner\onedrive\programming\crawlengine\collisionmodel.h
+	<glm/glm.hpp>
+	<array>
+	<cstdint>
+	<vector>
+
+1473889501 c:\sdk\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1473889501 c:\sdk\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1473889501 c:\sdk\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1473889501 c:\sdk\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1478952428 c:\sdk\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1478951438 c:\sdk\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1473889501 c:\sdk\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1474223386 c:\sdk\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1473889501 c:\sdk\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1473889501 c:\sdk\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1473889502 c:\sdk\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1477991732 c:\sdk\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1473889501 c:\sdk\glm\glm\detail\_swizzle.hpp
+
+1473889501 c:\sdk\glm\glm\detail\_swizzle_func.hpp
+
+1477991732 c:\sdk\glm\glm\detail\type_vec2.inl
+
+1473889502 c:\sdk\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1477991732 c:\sdk\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1477991732 c:\sdk\glm\glm\detail\type_vec3.inl
+
+1473889502 c:\sdk\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1477991732 c:\sdk\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1477991732 c:\sdk\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1476304815 c:\sdk\glm\glm\detail\type_vec4_simd.inl
+
+1473889502 c:\sdk\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1477991731 c:\sdk\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1477991731 c:\sdk\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1476304815 c:\sdk\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1473889502 c:\sdk\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1477991731 c:\sdk\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1477991731 c:\sdk\glm\glm\detail\type_mat2x3.inl
+
+1473889502 c:\sdk\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1477991731 c:\sdk\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1477991731 c:\sdk\glm\glm\detail\type_mat2x4.inl
+
+1473889502 c:\sdk\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1477991731 c:\sdk\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1477991732 c:\sdk\glm\glm\detail\type_mat3x2.inl
+
+1473889502 c:\sdk\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1477991732 c:\sdk\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1477991732 c:\sdk\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1473889502 c:\sdk\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1477991732 c:\sdk\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1477991732 c:\sdk\glm\glm\detail\type_mat3x4.inl
+
+1473889502 c:\sdk\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1477991732 c:\sdk\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1477991732 c:\sdk\glm\glm\detail\type_mat4x2.inl
+
+1476616258 c:\sdk\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1477991732 c:\sdk\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1477991732 c:\sdk\glm\glm\detail\type_mat4x3.inl
+
+1473889502 c:\sdk\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1477991732 c:\sdk\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1478043304 c:\sdk\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1473889501 c:\sdk\glm\glm\detail\type_mat4x4_simd.inl
+
+1478043304 c:\sdk\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1473889501 c:\sdk\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1473889501 c:\sdk\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1473889501 c:\sdk\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1473889501 c:\sdk\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1477991732 c:\sdk\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1477991732 c:\sdk\glm\glm\detail\type_vec1.inl
+
+1473889501 c:\sdk\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1473889501 c:\sdk\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1473889501 c:\sdk\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1473889501 c:\sdk\glm\glm\detail\func_vector_relational_simd.inl
+
+1473889501 c:\sdk\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1473889501 c:\sdk\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1473889502 c:\sdk\glm\glm\simd\exponential.h
+	"platform.h"
+
+1473889501 c:\sdk\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1478043304 c:\sdk\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1473889501 c:\sdk\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1473889502 c:\sdk\glm\glm\simd\common.h
+	"platform.h"
+
+1473889501 c:\sdk\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1473889502 c:\sdk\glm\glm\simd\geometric.h
+	"common.h"
+
+1473889501 c:\sdk\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1473889502 c:\sdk\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1473889502 c:\sdk\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1473889501 c:\sdk\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1473889501 c:\sdk\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1473889501 c:\sdk\glm\glm\detail\func_trigonometric_simd.inl
+
+1473889501 c:\sdk\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1473889501 c:\sdk\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1473889502 c:\sdk\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1473889501 c:\sdk\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1478111859 c:\sdk\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1473889501 c:\sdk\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1473889501 c:\sdk\glm\glm\detail\type_half.inl
+
+1473889501 c:\sdk\glm\glm\detail\func_packing_simd.inl
+
+1473889502 c:\sdk\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1473889502 c:\sdk\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1473889502 c:\sdk\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1473889501 c:\sdk\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1478951438 c:\sdk\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1478727589 c:\sdk\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1473889502 c:\sdk\glm\glm\simd\integer.h
+
+1481971794 source:c:\users\owner\onedrive\programming\crawlengine\main.cpp
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<iostream>
+
+1481959382 c:\sdk\glfw3\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1473889501 c:\sdk\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1478951438 c:\sdk\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1473889501 c:\sdk\glm\glm\gtc\constants.inl
+	<limits>
+
+1478726162 c:\sdk\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1478951438 c:\sdk\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1478951438 c:\sdk\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1477991732 c:\sdk\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1473889501 c:\sdk\glm\glm\gtc\quaternion_simd.inl
+
+1473889501 c:\sdk\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1481973588 source:c:\users\owner\onedrive\programming\crawlengine\model.cpp
+	"Model.h"
+	<fstream>
+	<sstream>
+	<iostream>
+
+1485755405 source:c:\users\owner\onedrive\programming\hunt\animation.cpp
+	"Animation.h"
+	<cmath>
+
+1485751396 c:\users\owner\onedrive\programming\hunt\animation.h
+	<array>
+	<string>
+	<vector>
+	<glm/fwd.hpp>
+	"Model.h"
+
+1481460016 c:\users\owner\onedrive\programming\hunt\model.h
+	"CollisionModel.h"
+	<cstdint>
+	<array>
+	<vector>
+
+1481971780 c:\users\owner\onedrive\programming\hunt\collisionmodel.h
+	<glm/glm.hpp>
+	<array>
+	<cstdint>
+	<vector>
+
+1513982906 source:c:\users\owner\onedrive\programming\hunt\classmap.cpp
+	"ClassMap.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<stack>
+
+1513977801 c:\users\owner\onedrive\programming\hunt\classmap.h
+	<cstdint>
+	<string>
+	<unordered_map>
+	<list>
+	<vector>
+
+1514094563 source:c:\users\owner\onedrive\programming\hunt\display.cpp
+	"Display.h"
+	"ClassMap.h"
+	<GL/glext.h>
+	<iostream>
+
+1513903309 c:\users\owner\onedrive\programming\hunt\display.h
+	<string>
+	<glm/fwd.hpp>
+	<GLFW/glfw3.h>
+
+1514012135 source:c:\users\owner\onedrive\programming\hunt\main.cpp
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<iostream>
+	"Display.h"
+	"Input.h"
+	"ScriptEngine.h"
+	"StringTable.h"
+
+1481973588 source:c:\users\owner\onedrive\programming\hunt\model.cpp
+	"Model.h"
+	<fstream>
+	<sstream>
+	<iostream>
+
+1514079266 source:c:\users\owner\onedrive\programming\hunt\stringtable.cpp
+	"StringTable.h"
+	<libxml/xmlreader.h>
+	<libxml/parser.h>
+	<iostream>
+
+1514077778 c:\users\owner\onedrive\programming\hunt\stringtable.h
+	<map>
+	<string>
+
+1485751805 source:c:\users\rexhu\onedrive\programming\hunt\animation.cpp
+	"Animation.h"
+	<cmath>
+
+1485747796 c:\users\rexhu\onedrive\programming\hunt\animation.h
+	<array>
+	<string>
+	<vector>
+	<glm/fwd.hpp>
+	"Model.h"
+
+1473885902 m:\sdk\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1473885902 m:\sdk\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1478948830 m:\sdk\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1478947840 m:\sdk\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1473885902 m:\sdk\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1474219788 m:\sdk\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1473885902 m:\sdk\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1473885902 m:\sdk\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1534530745 c:\users\rexhu\onedrive\programming\hunt\model.h
+	"CollisionModel.h"
+	<cstdint>
+	<array>
+	<vector>
+
+1481968180 c:\users\rexhu\onedrive\programming\hunt\collisionmodel.h
+	<glm/glm.hpp>
+	<array>
+	<cstdint>
+	<vector>
+
+1473885902 m:\sdk\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1473885902 m:\sdk\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1473885904 m:\sdk\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1477988134 m:\sdk\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1473885902 m:\sdk\glm\glm\detail\_swizzle.hpp
+
+1473885902 m:\sdk\glm\glm\detail\_swizzle_func.hpp
+
+1477988134 m:\sdk\glm\glm\detail\type_vec2.inl
+
+1473885904 m:\sdk\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1477988134 m:\sdk\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1477988134 m:\sdk\glm\glm\detail\type_vec3.inl
+
+1473885904 m:\sdk\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1477988134 m:\sdk\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1477988134 m:\sdk\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1476301216 m:\sdk\glm\glm\detail\type_vec4_simd.inl
+
+1473885904 m:\sdk\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1477988132 m:\sdk\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1477988132 m:\sdk\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1476301216 m:\sdk\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1473885904 m:\sdk\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1477988132 m:\sdk\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1477988132 m:\sdk\glm\glm\detail\type_mat2x3.inl
+
+1473885904 m:\sdk\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1477988132 m:\sdk\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1477988132 m:\sdk\glm\glm\detail\type_mat2x4.inl
+
+1473885904 m:\sdk\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1477988132 m:\sdk\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1477988134 m:\sdk\glm\glm\detail\type_mat3x2.inl
+
+1473885904 m:\sdk\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1477988134 m:\sdk\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1477988134 m:\sdk\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1473885904 m:\sdk\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1477988134 m:\sdk\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1477988134 m:\sdk\glm\glm\detail\type_mat3x4.inl
+
+1473885904 m:\sdk\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1477988134 m:\sdk\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1477988134 m:\sdk\glm\glm\detail\type_mat4x2.inl
+
+1476612660 m:\sdk\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1477988134 m:\sdk\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1477988134 m:\sdk\glm\glm\detail\type_mat4x3.inl
+
+1473885904 m:\sdk\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1477988134 m:\sdk\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1478039706 m:\sdk\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1473885902 m:\sdk\glm\glm\detail\type_mat4x4_simd.inl
+
+1478039706 m:\sdk\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1473885902 m:\sdk\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1473885902 m:\sdk\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1473885902 m:\sdk\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1473885902 m:\sdk\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1477988134 m:\sdk\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1477988134 m:\sdk\glm\glm\detail\type_vec1.inl
+
+1473885902 m:\sdk\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1473885902 m:\sdk\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1473885902 m:\sdk\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1473885902 m:\sdk\glm\glm\detail\func_vector_relational_simd.inl
+
+1473885902 m:\sdk\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1473885902 m:\sdk\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1473885904 m:\sdk\glm\glm\simd\exponential.h
+	"platform.h"
+
+1473885902 m:\sdk\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1478039706 m:\sdk\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1473885902 m:\sdk\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1473885904 m:\sdk\glm\glm\simd\common.h
+	"platform.h"
+
+1473885902 m:\sdk\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1473885904 m:\sdk\glm\glm\simd\geometric.h
+	"common.h"
+
+1473885902 m:\sdk\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1473885904 m:\sdk\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1473885904 m:\sdk\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1473885902 m:\sdk\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1473885902 m:\sdk\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1473885902 m:\sdk\glm\glm\detail\func_trigonometric_simd.inl
+
+1473885902 m:\sdk\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1473885902 m:\sdk\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1473885904 m:\sdk\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1473885902 m:\sdk\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1478108260 m:\sdk\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1473885902 m:\sdk\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1473885902 m:\sdk\glm\glm\detail\type_half.inl
+
+1473885902 m:\sdk\glm\glm\detail\func_packing_simd.inl
+
+1473885904 m:\sdk\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1473885904 m:\sdk\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1473885904 m:\sdk\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1473885902 m:\sdk\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1478947840 m:\sdk\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1478723990 m:\sdk\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1473885904 m:\sdk\glm\glm\simd\integer.h
+
+1534531287 source:c:\users\rexhu\onedrive\programming\hunt\display.cpp
+	"Display.h"
+	"ClassMap.h"
+	<iostream>
+
+1534529231 c:\users\rexhu\onedrive\programming\hunt\display.h
+	<GL/glew.h>
+	<string>
+	<glm/fwd.hpp>
+	<GLFW/glfw3.h>
+
+1505790792 m:\sdk\glfw3\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1534982962 source:c:\users\rexhu\onedrive\programming\hunt\main.cpp
+	"Display.h"
+	"Input.h"
+	"ScriptEngine.h"
+	"StringTable.h"
+	"Shader.h"
+	"Model.h"
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<exception>
+	<iostream>
+	<iostream>
+	<sstream>
+	<chrono>
+
+1473885902 m:\sdk\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1478947840 m:\sdk\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1473885902 m:\sdk\glm\glm\gtc\constants.inl
+	<limits>
+
+1478722564 m:\sdk\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1478947840 m:\sdk\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1478947840 m:\sdk\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1477988134 m:\sdk\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1473885902 m:\sdk\glm\glm\gtc\quaternion_simd.inl
+
+1473885902 m:\sdk\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1534530803 source:c:\users\rexhu\onedrive\programming\hunt\model.cpp
+	"Model.h"
+	<fstream>
+	<sstream>
+	<iostream>
+	<GL/glew.h>
+
+1513900457 c:\users\owner\onedrive\programming\hunt\input.h
+	<GLFW/glfw3.h>
+	<string>
+
+1514094627 source:c:\users\owner\onedrive\programming\hunt\input.cpp
+	"Input.h"
+	<GLFW/glfw3.h>
+	<iostream>
+
+1513983664 c:\users\owner\onedrive\programming\hunt\scriptengine.h
+	<cstdint>
+	<string>
+
+1514095490 source:c:\users\owner\onedrive\programming\hunt\scriptengine.cpp
+	"ScriptEngine.h"
+	<iostream>
+	<string>
+	<vector>
+	<lua.hpp>
+
+1485182755 c:\sdk\lua\include\lua.hpp
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+
+1485182755 c:\sdk\lua\include\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1485182755 c:\sdk\lua\include\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<stdint.h>
+	<assert.h>
+
+1485182755 c:\sdk\lua\include\lualib.h
+	"lua.h"
+
+1485182755 c:\sdk\lua\include\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1485521606 c:\sdk\libxml2\include\libxml\xmlreader.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/xmlIO.h>
+	<libxml/relaxng.h>
+	<libxml/xmlschemas.h>
+
+1485521607 c:\sdk\libxml2\include\libxml\xmlversion.h
+	<libxml/xmlexports.h>
+	<ansidecl.h>
+
+1514025347 c:\sdk\libxml2\include\libxml\xmlexports.h
+
+1485521606 c:\sdk\libxml2\include\libxml\tree.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/xmlstring.h>
+	<libxml/xmlregexp.h>
+	<libxml/xmlmemory.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\xmlstring.h
+	<stdarg.h>
+	<libxml/xmlversion.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\xmlregexp.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/dict.h>
+
+1485521605 c:\sdk\libxml2\include\libxml\dict.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\xmlmemory.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/threads.h>
+	<libxml/globals.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\threads.h
+	<libxml/xmlversion.h>
+	<libxml/globals.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\globals.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xmlerror.h>
+	<libxml/SAX.h>
+	<libxml/SAX2.h>
+	<libxml/xmlmemory.h>
+	<libxml/threads.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\parser.h
+	<stdarg.h>
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/dict.h>
+	<libxml/hash.h>
+	<libxml/valid.h>
+	<libxml/entities.h>
+	<libxml/xmlerror.h>
+	<libxml/xmlstring.h>
+	<libxml/encoding.h>
+	<libxml/xmlIO.h>
+	<libxml/globals.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\hash.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/dict.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\valid.h
+	<libxml/xmlversion.h>
+	<libxml/xmlerror.h>
+	<libxml/tree.h>
+	<libxml/list.h>
+	<libxml/xmlautomata.h>
+	<libxml/xmlregexp.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\xmlerror.h
+	<libxml/parser.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\list.h
+	<libxml/xmlversion.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\xmlautomata.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/xmlregexp.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\entities.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\encoding.h
+	<libxml/xmlversion.h>
+	<iconv.h>
+	<unicode/ucnv.h>
+	<libxml/tree.h>
+
+1096749016 c:\sdk\iconv\include\iconv.h
+	"iconv.h"
+	<stddef.h>
+	<errno.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\xmlio.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/globals.h>
+	<libxml/tree.h>
+	<libxml/parser.h>
+	<libxml/encoding.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\sax.h
+	<stdio.h>
+	<stdlib.h>
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xlink.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\xlink.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\sax2.h
+	<stdio.h>
+	<stdlib.h>
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xlink.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\relaxng.h
+	<libxml/xmlversion.h>
+	<libxml/hash.h>
+	<libxml/xmlstring.h>
+
+1485521606 c:\sdk\libxml2\include\libxml\xmlschemas.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1513974201 c:\users\rexhu\onedrive\programming\hunt\classmap.h
+	<cstdint>
+	<string>
+	<unordered_map>
+	<list>
+	<vector>
+
+1534531064 c:\users\rexhu\onedrive\programming\hunt\input.h
+	<GLFW/glfw3.h>
+	<string>
+
+1513980064 c:\users\rexhu\onedrive\programming\hunt\scriptengine.h
+	<cstdint>
+	<string>
+
+1514074178 c:\users\rexhu\onedrive\programming\hunt\stringtable.h
+	<map>
+	<string>
+
+1514091890 source:c:\users\rexhu\onedrive\programming\hunt\scriptengine.cpp
+	"ScriptEngine.h"
+	<iostream>
+	<string>
+	<vector>
+	<lua.hpp>
+
+1485179156 m:\sdk\lua\include\lua.hpp
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+
+1485179156 m:\sdk\lua\include\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1485179156 m:\sdk\lua\include\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<stdint.h>
+	<assert.h>
+
+1485179156 m:\sdk\lua\include\lualib.h
+	"lua.h"
+
+1485179156 m:\sdk\lua\include\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1514075666 source:c:\users\rexhu\onedrive\programming\hunt\stringtable.cpp
+	"StringTable.h"
+	<libxml/xmlreader.h>
+	<libxml/parser.h>
+	<iostream>
+
+1534532860 source:c:\users\rexhu\onedrive\programming\hunt\classmap.cpp
+	"ClassMap.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<stack>
+
+1514245939 source:c:\users\rexhu\onedrive\programming\hunt\input.cpp
+	"Input.h"
+	<GLFW/glfw3.h>
+	<iostream>
+
+1485518008 m:\sdk\libxml2\include\libxml\xmlreader.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/xmlIO.h>
+	<libxml/relaxng.h>
+	<libxml/xmlschemas.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\xmlversion.h
+	<libxml/xmlexports.h>
+	<ansidecl.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\xmlexports.h
+
+1485518008 m:\sdk\libxml2\include\libxml\tree.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/xmlstring.h>
+	<libxml/xmlregexp.h>
+	<libxml/xmlmemory.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\xmlstring.h
+	<stdarg.h>
+	<libxml/xmlversion.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\xmlregexp.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/dict.h>
+
+1485518006 m:\sdk\libxml2\include\libxml\dict.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\xmlmemory.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/threads.h>
+	<libxml/globals.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\threads.h
+	<libxml/xmlversion.h>
+	<libxml/globals.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\globals.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xmlerror.h>
+	<libxml/SAX.h>
+	<libxml/SAX2.h>
+	<libxml/xmlmemory.h>
+	<libxml/threads.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\parser.h
+	<stdarg.h>
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/dict.h>
+	<libxml/hash.h>
+	<libxml/valid.h>
+	<libxml/entities.h>
+	<libxml/xmlerror.h>
+	<libxml/xmlstring.h>
+	<libxml/encoding.h>
+	<libxml/xmlIO.h>
+	<libxml/globals.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\hash.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/dict.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\valid.h
+	<libxml/xmlversion.h>
+	<libxml/xmlerror.h>
+	<libxml/tree.h>
+	<libxml/list.h>
+	<libxml/xmlautomata.h>
+	<libxml/xmlregexp.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\xmlerror.h
+	<libxml/parser.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\list.h
+	<libxml/xmlversion.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\xmlautomata.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/xmlregexp.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\entities.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\encoding.h
+	<libxml/xmlversion.h>
+	<iconv.h>
+	<unicode/ucnv.h>
+	<libxml/tree.h>
+
+1534351063 m:\sdk\libxml2\include\iconv.h
+	"iconv.h"
+	<stddef.h>
+	<errno.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\xmlio.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/globals.h>
+	<libxml/tree.h>
+	<libxml/parser.h>
+	<libxml/encoding.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\sax.h
+	<stdio.h>
+	<stdlib.h>
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xlink.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\xlink.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\sax2.h
+	<stdio.h>
+	<stdlib.h>
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xlink.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\relaxng.h
+	<libxml/xmlversion.h>
+	<libxml/hash.h>
+	<libxml/xmlstring.h>
+
+1485518008 m:\sdk\libxml2\include\libxml\xmlschemas.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1534415309 m:\sdk\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1534531227 c:\users\rexhu\onedrive\programming\hunt\shader.h
+	<unordered_map>
+	<string>
+	<cstdint>
+
+1534531273 source:c:\users\rexhu\onedrive\programming\hunt\shader.cpp
+	"Shader.h"
+	"Exceptions.h"
+	<cstdio>
+	<cstdint>
+	<iostream>
+	<string>
+	<unordered_map>
+	<GL/glew.h>
+	<glm/gtc/type_ptr.hpp>
+
+1534414774 c:\users\rexhu\onedrive\programming\hunt\exceptions.h
+	<exception>
+	<string>
+
+1534982610 source:c:\users\rexhu\onedrive\programming\hunt\texture.cpp
+	"Texture.h"
+	<GL/glew.h>
+	<png.h>
+	<cstdlib>
+	<iostream>
+	<vector>
+
+1534978156 c:\users\rexhu\onedrive\programming\hunt\texture.h
+	<cstdint>
+	<string>
+	<vector>
+
+1534533377 source:c:\users\rexhu\onedrive\programming\hunt\entity.cpp
+	"Entity.h"
+
+1534532938 c:\users\rexhu\onedrive\programming\hunt\entity.h
+	<glm/glm.hpp>
+	<cstdint>
+	<vector>
+
+1485170596 m:\sdk\libpng\include\png.h
+	"pnglibconf.h"
+	"pngconf.h"
+
+1485173148 m:\sdk\libpng\include\pnglibconf.h
+
+1485170596 m:\sdk\libpng\include\pngconf.h
+	<limits.h>
+	<stddef.h>
+	<stdio.h>
+	<setjmp.h>
+	<time.h>
+
